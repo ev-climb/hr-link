@@ -1,0 +1,7 @@
+.form__eye-icon {
+  width: 30px;
+  position: absolute;
+  right: 3px;
+  top: 11px;
+  cursor: pointer;
+}

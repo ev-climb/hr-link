@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./pages/index.css" rel="stylesheet" type="text/css">
+    <title>Вход в HR-Link</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <h1 class="header__title">Войти в HR-Link</h1>
+        </header>
+        <main class="main">
+            <img class="fone-image" src="./images/hr-link-img.png" alt="изображение">
+            <form class="form">
+                <div class="form__container">
+                    <label class="form__label" for="emailPhone">Email/Телефон/WhatsApp</label>
+                    <input class="form__input" type="text" id="emailPhone" name="emailPhone"
+                        placeholder="Введите e-mail или телефон">
+                </div>
+                <div class="form__container">
+                    <div class="form__label-container">
+                        <label class="form__label" for="password">Пароль</label>
+                        <a class="form__link" href="#">Не знаете пароль?</a>
+                    </div>
+
+                    <div class="form__input-container">
+                        <input class="form__input" type="password" id="password" name="password"
+                            placeholder="Введите пароль">
+                        <img class="form__eye-icon" src="./images/eye.svg">
+                    </div>
+
+                </div>
+                <button class="form__submit" type="submit"><span class="form__submit-text">Войти</span><img
+                        class="form__submit-icon" src="./images/right_arrow.svg"></button>
+                <div class="form__line"></div>
+            </form>
+
+
+        </main>
+        <footer class="footer">
+            <p class="copyright">Copyright &#169; 2023 HR-Link</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
